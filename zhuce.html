@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <!-- <script src="js/ajax.js"></script> -->
+    <script src="js/jquery.validate.js"></script>
+<script src="js/jquery.validate.messages_zh.js"></script> 
 </head>
 <link rel="stylesheet" href="css/A.css">
 
@@ -202,14 +204,21 @@
                             </select>
                             <span>日</span>
                         </div> -->
-                        <div class="jhm">
+                        <div class="yzm">
+                            <i>*</i>
+                            验证码：
+                            <input type="text" name="yzm" id="">
+                            <span class="ma">absd</span>
+                            <u>换一换</u>
+                        </div>
+                        <!-- <div class="jhm">
                             <i>*</i>
                             激活码：<span>免费获取短信激活码</span>
                             <input type="text" name="key" value maxlength="6">
                             <div class="add">
                                 <a href="#">收不到验证码？</a>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="btn">
                             <span>立即注册</span>
                         </div>
@@ -237,8 +246,8 @@
                         <div class="email">
                             <img class="emailimg" src="img/images/email.png" alt="">
                             <i>*</i>
-                            手机：
-                            <input type="text" name="email" placeholder="使用邮箱登录" class="email">
+                            邮箱：
+                            <input type="text" name="email" placeholder="使用邮箱登录" class="email" required="true" email="true">
                             <div class="add">
                                 或使用<a href="#">手机注册</a>
                             </div>
@@ -269,13 +278,21 @@
                                 <option value="">广州</option>
                             </select>
                         </div>
-                        <div class="yzm">
+                        <div class="jhm">
+                            <i>*</i>
+                            激活码：<span>免费获取短信激活码</span>
+                            <input type="text" name="key" value maxlength="6">
+                            <div class="add">
+                                <a href="#">收不到验证码？</a>
+                            </div>
+                        </div>
+                        <!-- <div class="yzm">
                             <i>*</i>
                             验证码：
                             <input type="text" name="yzm" id="">
                             <span>absd</span>
                             <u>换一换</u>
-                        </div>
+                        </div> -->
                         <div class="btn">
                             <span>立即注册</span>
                         </div>
@@ -327,8 +344,7 @@
 <script src="js/jquery-1.8.3.js"></script>
  <script src="js/zhuce.js"></script>
  <script src="js/public.js"></script>
-<!-- <script src="jquery.validate.js"></script>
-<script src="jquery.validate.messages_zh.js"></script> -->
+
 <script>
     $('.header').click(function(e){
         var targe=e.target;
@@ -340,6 +356,13 @@
 
     var userflag=false;
     var passwdflag=false;
+    var yzmflag=false;
+
+if($('.yzm').val()==$('.ma').val() ){
+    yzmflag=true;
+}else{
+    yzmflag=false;
+}
     $('input[name=user]').bind('focus',function(){
         if($('input[name=user]').val()==''){
             $('.no').css('display','none');
@@ -386,13 +409,13 @@
     });
     
     $('.btn').on('click',function(){
-    //if(passwdflag && userflag){
+    if(passwdflag && userflag){
     var userVal=$('input[name=user]').val();
     var passwdVal=$('input[name=passwd]').val();
-    console.log(userVal);
-    console.log(passwdVal);
+    // console.log(userVal);
+    // console.log(passwdVal);
         $.ajax({
-            url:'data/login.php',
+            url:'js/login2.php',
             type:'get',
             data:'act=add&user='+userVal+'&pass='+passwdVal,
             dataType: 'json',
@@ -401,11 +424,11 @@
                 console.log(josn)
                 alert(josn.msg);
             },
-            // error:function(err){
-            //     alert(err);
-            // }
+            error:function(err){
+                alert(err);
+            }
         })
-    //}
+    }
 })
 
 // var btn=document.querySelector('.btn');

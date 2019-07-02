@@ -49,8 +49,8 @@ toRight.onclick = function(){
     if(index == 6){//因为自动轮播时，有一张伪造的图片，当显示 第一张时，其实是最后一张，所以这时的下标为4
         index = 1;
         imgList.style.left = 0;
-    }else if(index == 5){
-        index = 5;
+    }else if(index == 4){
+        index = 4;
     }else{
         index++;
     }
