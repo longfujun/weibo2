@@ -1,0 +1,19 @@
+html,body,div,ul,ol,li,table,th,tr,td,dl,dt,dd,p,
+span,i,b,strong,em,a,img,input,form,select,button,
+aside,figure{margin:0;padding:0;}
+img{vertical-align: top;}
+a{
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+body{
+	font-family: "Microsoft YaHei", 微软雅黑, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: rgb(23, 23, 23);
+}
+ul,ol{list-style: none;}
+i,em,strong,b{
+	font-style: normal;
+	font-weight: normal;
+}

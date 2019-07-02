@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>微博首页</title>
+    <!-- 字体库样式 -->
+    <link href="css/font/iconfont.css" rel="stylesheet" type="text/css"/> 
+    <!-- 总体样式 -->
+    <link rel="stylesheet" href="css/l-homepage.css">
+    <!-- 轮播图样式 -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<body>
+<div class="page">
+    <div class="l-header">
+        <a href="#"><img src="img/logo.jpg" alt=""></a> 
+        <div class="search">
+            <form action="" class="form">
+                <input type="text" class="ipt" placeholder="大家都在搜：千峰教育">
+                <a href="#" class="iconfont iconsousuo"></a>
+            </form>
+            <ul class="list">
+                <!-- <li>2</li> -->
+            </ul>
+        </div>
+        <ul class="link">
+            <li><a href="homepage.html"><i class="iconfont iconshouye"></i>首页</a></li>
+            <li><a href="shipi.html"><i class="iconfont iconshipin3"></i>视频</a></li>
+            <li><a href="homepage.html"><i class="iconfont iconfaxian"></i>发现</a></li>
+            <li><a href="weibo.html"><i class="iconfont iconyouxi2"></i>游戏<a></li>
+        </ul>
+        <ul class="link2">
+                <li><a href="#">登录</a></li>
+                <li>|</li>
+                <li><a href="zhuce.html">注册</a></li>
+        </ul>
+    </div>
+    <!-- 头部结束 -->
+    <!-- 主要内容区大盒子开始 -->
+    <div class="l-main" id="1">
+        <!-- 侧边导航栏开始 -->
+        <div class="l-aside">
+            <ul class="nav">
+                <li><a href="#" class="current">热门</a></li>
+                <li><a href="#">头条</a></li>
+                <li><a href="shipi.html">视频</a></li>
+                <li><a href="weibo.html">游戏</a></li>
+                <li><a href="#">新鲜事</a></li>
+                <li><a href="#">榜单</a></li>
+                <li><a href="#">搞笑</a></li>
+                <li><a href="#">社会</a></li>
+                <li><a href="#">时尚</a></li>
+                <li><a href="#">电影</a></li>
+                <li><a href="meinv.html">美女</a></li>
+                <li><a href="#">体育</a></li>
+                <li><a href="#">动漫</a></li>
+            </ul>
+        </div>
+        <!-- 侧边导航栏结束 -->
+        <!-- 主要内容右侧开始布局 -->
+        <div class="l-main-right">
+            <div class="rightTopBox">
+                <div class="right-top">
+                    <div class="denglu">
+                        <ul class="list">
+                            <li><a href="#" class="currentDl">账号登录</a> </li>
+                            <li><a href="#">安全登录</a> </li>
+                        </ul>
+                    </div>
+                    <div class="zhanghaoBox"> <!-- 账号登录界面盒子 -->
+                        <form action="" class="form-one"> <!-- 两个输入框账号和密码 -->
+                            <i class="iconfont icongeren"></i>
+                            <input type="text" class="input-one user" placeholder="邮箱/会员账号/手机号">
+                        </form>
+                        <form action="" class="form-one">
+                            <i class="iconfont iconsuo1"></i>
+                            <input type="text" class="input-one pass" placeholder="请输入密码">
+                        </form>
+                        <div class="checked">
+                            <input type="checkbox" name="" id="" checked="checked">
+                            <span>记住我</span>
+                            <a href="#">忘记密码</a>
+                        </div>
+                        <a href="#"><div class="register login">登录</div></a> 
+                        <div class="zhuce">
+                            还没注册微博？
+                            <a href="zhuce.html">立即注册!</a>
+                        </div>
+                        <div class="other">
+                                <ul class="link">
+                                    <span> 其它登录：</span>
+                                    <li><a href="#"><i class="iconfont iconshouye"></i></a></li>
+                                    <li><a href="#"><i class="iconfont iconshipin3"></i></a></li>
+                                    <li><a href="#"><i class="iconfont iconfaxian"></i></a></li>
+                                    <li><a href="#"><i class="iconfont iconyouxi2"></i><a></li>
+                                    <li><a href="#"><i class="iconfont iconforward"></i><a></li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="anquanBox"> <!-- 安全登录盒子 -->
+                        <div class="qrCode">
+                            <img src="img/denglu.png" alt="">
+                            <p>请用最新版微博客户端扫码</p>
+                        </div>
+                    <div class="zhuche">
+                        <span> 还没微博？</span>
+                            <a href="zhuce.html">立即注册!</a>
+                        </div>
+                    </div>
+                    <!-- 手机图片显示隐藏 -->
+                    <div class="phone">
+                        <img src="img/phone.png" alt="">
+                    </div>
+                </div>
+            </div>
+           <!-- 登录界面结束 -->
+           <!-- 右侧中心模块微博新鲜事开始 -->
+           <div class="rightCenterBox">
+              <div class="right-center">
+                  <h3>微博新鲜事</h3>
+                  <a href="#">
+                        <div class="news">
+                            <a href="#">大哥，你喝水！</a> 
+                            <img src="img/right1.jpg" alt="">
+                            <p>5分钟前</p>
+                        </div>
+                   </a>
+                   <a href="#">
+                        <div class="news">
+                            <a href="#">恋爱使人头大</a> 
+                            <img src="img/right2.jpg" alt="">
+                            <p>15分钟前</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="news">
+                            <a href="#">张口就是段子</a> 
+                            <img src="img/right3.jpg" alt="">
+                            <p>25分钟前</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="news">
+                            <a href="#">吃瓜群众哪家强</a> 
+                            <img src="img/right4.jpg" alt="">
+                            <p>30分钟前</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="news">
+                            <a href="#">向往的生活</a> 
+                            <img src="img/right5.jpg" alt="">
+                            <p>35分钟前</p>
+                        </div>
+                    </a>
+              </div>
+              <div class="right-more">
+                  <a href="#">查看更多></a> 
+              </div>
+           </div>
+            <!-- 右侧中心模块微博新鲜事结束 -->
+        
+             <!-- 右侧底部模块微博实时热点开始 -->
+            <div class="rightDownBox">
+                <div class="right-down">
+                    <h3>微博实时热点</h3>
+                    <a href="#">
+                          <div class="news">
+                              <a href="#">#七月您好#</a> 
+                              <img src="img/down1.jpg" alt="">
+                              <p>秒赞 这个月好运连连✨🌈 #七月你好# ​​​​</p>
+                          </div>
+                     </a>
+                     <a href="#">
+                          <div class="news">
+                              <a href="#">#恋爱使人头大#</a> 
+                              <img src="img/down2.jpg" alt="">
+                              <p>#老夫编程就是一把梭哈#</p>
+                          </div>
+                      </a>
+                      <a href="#">
+                          <div class="news">
+                              <a href="#">#全智贤离婚#</a> 
+                              <img src="img/down3.jpg" alt="">
+                              <p>#你们的女神全智贤#</p>
+                          </div>
+                      </a>
+                      <a href="#">
+                          <div class="news">
+                              <a href="#">#15岁高考667分#</a> 
+                              <img src="img/down4.gif" alt="">
+                              <p>#无敌的快乐，高考学子！！#</p>
+                          </div>
+                      </a>
+                      <a href="#">
+                          <div class="news">
+                              <a href="#">#金秀贤正式退伍#</a> 
+                              <img src="img/down5.jpg" alt="">
+                              <p>#金秀贤正式退伍#都教授回来啦！​​​​</p>
+                          </div>
+                      </a>
+                </div>
+                <div class="right-more">
+                    <a href="#">查看更多></a> 
+                </div>
+            </div>
+              <!-- 右侧底部模块微博实时热点结束 -->
+
+               <!-- 右侧底部微博找人开始 -->
+            <div class="rightLookforBox">
+                <div class="right-lookfor">
+                    <h3>微博找人</h3>
+                   <div class="main">
+                       <h4>名人</h4>
+                       <ul>
+                           <li><img src="img/1087030002_558_3_2013.png" alt=""> <a href="#">明星</a></li>
+                           <li><img src="img/1087030002_558_3_2014.png" alt=""> <a href="#">商界</a></li>
+                           <li><img src="img/1087030002_558_3_2015.png" alt=""> <a href="#">媒体精英</a></li>
+                           <li><img src="img/1087030002_558_3_2016.png" alt=""> <a href="#">作家</a></li>
+                           <li><img src="img/1087030002_558_3_2017.png" alt=""> <a href="#">政府官员</a></li>
+                       </ul>
+                   </div>
+                   <div class="main">
+                        <h4>专家</h4>
+                        <ul>
+                            <li><img src="img/1087030002_558_3_5001.png" alt=""> <a href="#">医疗</a></li>
+                            <li><img src="img/1087030002_558_3_5002.png" alt=""> <a href="#">育儿</a></li>
+                            <li><img src="img/1087030002_558_3_5003.png" alt=""> <a href="#">IT互联网</a></li>
+                            <li><img src="img/1087030002_558_3_5004.png" alt=""> <a href="#">电台</a></li>
+                            <li><img src="img/1087030002_558_3_5005.png" alt=""> <a href="#">财经</a></li>
+                            <li><img src="img/1087030002_558_3_5006.png" alt=""> <a href="#">教育</a></li>
+                            <li><img src="img/1087030002_558_3_5013.png" alt=""> <a href="#">教育</a></li>
+                           <li><img src="img/1087030002_558_3_5007.png" alt=""> <a href="#">法律</a></li>
+                           <li><img src="img/1087030002_558_3_5004.png" alt=""> <a href="#">电台</a></li>
+                            <li><img src="img/1087030002_558_3_5005.png" alt=""> <a href="#">财经</a></li>
+                            <li><img src="img/1087030002_558_3_5006.png" alt=""> <a href="#">科学</a></li>
+                           <li><img src="img/1087030002_558_3_5007.png" alt=""> <a href="#">数码</a></li>
+                        </ul>
+                    </div>
+                    <div class="main">
+                        <h4>兴趣</h4>
+                        <ul>
+                            <li><img src="img/1087030002_558_3_5001.png" alt=""> <a href="#">医疗</a></li>
+                            <li><img src="img/1087030002_558_3_5002.png" alt=""> <a href="#">育儿</a></li>
+                            <li><img src="img/1087030002_558_3_5003.png" alt=""> <a href="#">IT互联网</a></li>
+                            <li><img src="img/1087030002_558_3_5004.png" alt=""> <a href="#">电台</a></li>
+                            <li><img src="img/1087030002_558_3_5005.png" alt=""> <a href="#">财经</a></li>
+                            <li><img src="img/1087030002_558_3_5006.png" alt=""> <a href="#">教育</a></li>
+                            <li><img src="img/1087030002_558_3_5007.png" alt=""> <a href="#">法律</a></li>
+                            <li><img src="img/1087030002_558_3_5008.png" alt=""> <a href="#">医疗</a></li>
+                            <li><img src="img/1087030002_558_3_5009.png" alt=""> <a href="#">育儿</a></li>
+                            <li><img src="img/1087030002_558_3_5011.png" alt=""> <a href="#">电台</a></li>
+                            <li><img src="img/1087030002_558_3_5012.png" alt=""> <a href="#">财经</a></li>
+                            <li><img src="img/1087030002_558_3_5013.png" alt=""> <a href="#">教育</a></li>
+                            <li><img src="img/1087030002_558_3_5007.png" alt=""> <a href="#">法律</a></li>
+                            <li><img src="img/1087030002_558_3_5004.png" alt=""> <a href="#">电台</a></li>
+                            <li><img src="img/1087030002_558_3_5005.png" alt=""> <a href="#">财经</a></li>
+                            <li><img src="img/1087030002_558_3_5006.png" alt=""> <a href="#">科学</a></li>
+                            <li><img src="img/1087030002_558_3_5007.png" alt=""> <a href="#">数码</a></li>
+                        </ul>
+                    </div>
+                    <div class="main">
+                        <h4>机构</h4>
+                        <ul>
+                            <li><img src="img/1087030002_854_2001_0.png" alt=""> <a href="#">政府</a></li>
+                            <li><img src="img/1087030002_854_2002_0.png" alt=""> <a href="#">媒体</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 右侧底部微博找人结束 -->
+        </div>
+        <!-- 主要内容右侧内容布局结束 -->
+
+
+
+        <!-- 主要内容中心开始布局 -->
+        <div class="l-main-center">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="#"><img src="img/banner8.jpg" alt=""></a> </div>
+                    <div class="swiper-slide"><a href="#"><img src="img/banner6.jpg" alt=""></a> </div>
+                    <div class="swiper-slide"><a href="#"><img src="img/banner2.jpg" alt=""></a> </div>
+                    <div class="swiper-slide"><a href="#"><img src="img/banner3.jpg" alt=""></a> </div>
+                    <div class="swiper-slide"><a href="#"><img src="img/banner5.jpg" alt=""></a> </div>
+                    <div class="swiper-slide"><a href="#"><img src="img/banner1.jpg" alt=""></a> </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>  
+            <!-- 轮播图结束 -->
+            <a href="#">
+                <div class="news-one">
+                    <div class="img"><img src="img/news3.jpg" alt=""></div>
+                    <p><span>#宋雨琦烟嗓##宋雨琦唱功</span>《奔跑吧》<span>@宋雨琦-G-I-DLE</span>和素人一起演唱《someone like you》 <span>#新浪综艺的秒拍视频</span></p>
+                    <h1><img src="img/min3.jpg" alt=""><span>新浪综艺 &nbsp 6月30日 12:35</span></h1>
+                    <ul class="link-bottom">
+                            <li><a href="#"><i class="iconfont iconzhuanfa"></i></a>56421</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont iconpinglun-copy"></i></a>60423</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont icondianzan"></i></a>23526</li>
+                    </ul>
+                </div>
+            </a>
+            <!-- 轮播图结束 -->
+
+             <!-- 图文第一部分开始 -->
+            <a href="#">
+                <div class="news-one">
+                    <div class="img"><img src="img/news2.jpg" alt=""></div>
+                    <p>听雨的时候，你们在想什么？<span>#向往的生活 #向往的生活的生活微博视频</span></p>
+                    <h1><img src="img/min1.jpg" alt=""><span>张子枫 &nbsp 6月30日 10:15</span></h1>
+                    <ul class="link-bottom">
+                            <li><a href="#"><i class="iconfont iconzhuanfa"></i></a>56421</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont iconpinglun-copy"></i></a>60423</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont icondianzan"></i></a>23526</li>
+                    </ul>
+                </div>
+            </a>
+            <a href="#">
+                <div class="news-one">
+                    <div class="img"><img src="img/news1.jpg" alt=""></div>
+                    <p>听雨的时候，你们在想什么？<span>#向往的生活 #向往的生活的生活微博视频</span></p>
+                    <h1><img src="img/min2.jpg" alt=""><span>张子枫 &nbsp 6月30日 10:15</span></h1>
+                    <ul class="link-bottom">
+                            <li><a href="#"><i class="iconfont iconzhuanfa"></i></a>56421</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont iconpinglun-copy"></i></a>60423</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont icondianzan"></i></a>23526</li>
+                    </ul>
+                </div>
+            </a>
+            <!-- 图文第二部分开始 -->
+            <a href="#">
+                <div class="news-two">
+                    <div class="img"><img src="img/new3.jpg" alt=""></div>
+                    <p>你们在想什么？<span>#搞笑头条军 </span></p>
+                    <p>哇哈哈哈哈，来源！！！</p>
+                    <h1><img src="img/min3.jpg" alt=""><span>搞笑头条军 &nbsp 6月30日 13:15</span></h1>
+                    <ul class="link-bottom">
+                            <li><a href="#"><i class="iconfont iconzhuanfa"></i></a>56421</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont iconpinglun-copy"></i></a>60423</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont icondianzan"></i></a>23526</li>
+                    </ul>
+                </div>
+            </a>
+            <a href="#">
+                <div class="news-two">
+                    <div class="img"><img src="img/new4.jpg" alt=""></div>
+                    <p>你们在想什么？<span>#搞笑头条军 </span></p>
+                    <p>哇哈哈哈哈，来源！！！</p>
+                    <h1><img src="img/min2.jpg" alt=""><span>搞笑头条军 &nbsp 6月30日 13:15</span></h1>
+                    <ul class="link-bottom">
+                            <li><a href="#"><i class="iconfont iconzhuanfa"></i></a>56421</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont iconpinglun-copy"></i></a>60423</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont icondianzan"></i></a>23526</li>
+                    </ul>
+                </div>
+            </a>
+            <a href="#">
+                <div class="news-two">
+                    <div class="img"><img src="img/new5.jpg" alt=""></div>
+                    <p>不~你不想<span>#恋爱的女生</span></p>
+                    <p>单身时：好像~谈恋爱。。。</p>
+                    <h1><img src="img/min3.jpg" alt=""><span>搞笑头条军 &nbsp 6月30日 13:15</span></h1>
+                    <ul class="link-bottom">
+                            <li><a href="#"><i class="iconfont iconzhuanfa"></i></a>56421</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont iconpinglun-copy"></i></a>60423</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont icondianzan"></i></a>23526</li>
+                    </ul>
+                </div>
+            </a>
+            <a href="#">
+                <div class="news-two">
+                    <div class="img"><img src="img/new2.jpg" alt=""></div>
+                    <p>你们在想什么？<span>#搞笑头条军 </span></p>
+                    <p>哇哈哈哈哈，来源！！！</p>
+                    <h1><img src="img/min6.jpg" alt=""><span>搞笑头条军 &nbsp 6月30日 13:15</span></h1>
+                    <ul class="link-bottom">
+                            <li><a href="#"><i class="iconfont iconzhuanfa"></i></a>56421</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont iconpinglun-copy"></i></a>60423</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont icondianzan"></i></a>23526</li>
+                    </ul>
+                </div>
+            </a>
+            <!-- 图文第三部分开始 -->
+            <a href="#">
+                <div class="news-three">
+                    <p>美了，美了 #甜蜜生活</p>
+                    <ul class="link-top">
+                        <li><img src="img/dab20f8dly1g4ewi7a1gwj21he1zqb29.jpg" alt=""></li>
+                        <li><img src="img/dab20f8dly1g4ewi85od8j20x51874gj.jpg" alt=""></li>
+                        <li><img src="img/dab20f8dly1g4exk6ckxaj20ud158aig.jpg" alt=""></li>
+                        <li><img src="img/dab20f8dly1g4exk6tfd9j20wr17rqcz.jpg" alt=""></li>
+                    </ul>
+                    <h1><img src="img/min3.jpg" alt=""><span>搞笑头条军 &nbsp 6月30日 13:15</span></h1>
+                    <ul class="link-bottom">
+                            <li><a href="#"><i class="iconfont iconzhuanfa"></i></a>56421</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont iconpinglun-copy"></i></a>60423</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont icondianzan"></i></a>23526</li>
+                    </ul>
+                </div>
+            </a>
+            <a href="#">
+                <div class="news-three">
+                    <p>七月你好，还请好好加油！！！</p>
+                    <ul class="link-top">
+                        <li><img src="img/mao1.jpg" alt=""></li>
+                        <li><img src="img/mao2.jpg" alt=""></li>
+                        <li><img src="img/mao3.jpg" alt=""></li>
+                        <li><img src="img/mao4.jpg" alt=""></li>
+                    </ul>
+                    <h1><img src="img/min6.jpg" alt=""><span>搞笑头条军 &nbsp 6月30日 13:15</span></h1>
+                    <ul class="link-bottom">
+                            <li><a href="#"><i class="iconfont iconzhuanfa"></i></a>56421</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont iconpinglun-copy"></i></a>60423</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont icondianzan"></i></a>23526</li>
+                    </ul>
+                </div>
+            </a>
+            <a href="#">
+                <div class="news-three">
+                    <p>我是小可爱</p>
+                    <ul class="link-top">
+                        <li><img src="img/67dd74e0gy1g4jjchpl1wj20gg0cwn7d.jpg" alt=""></li>
+                        <li><img src="img/67dd74e0gy1g4jjchqqyyj20iu0f4dpw.jpg" alt=""></li>
+                        <li><img src="img/67dd74e0gy1g4jjci7aljj20i30eknc5.jpg" alt=""></li>
+                        <li><img src="img/67dd74e0gy1g4jjcig42ej20ks0fuwv8.jpg" alt=""></li>
+                    </ul>
+                    <h1><img src="img/min1.jpg" alt=""><span>搞笑头条军 &nbsp 6月30日 13:15</span></h1>
+                    <ul class="link-bottom">
+                            <li><a href="#"><i class="iconfont iconzhuanfa"></i></a>56421</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont iconpinglun-copy"></i></a>60423</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont icondianzan"></i></a>23526</li>
+                    </ul>
+                </div>
+            </a>
+            <a href="#">
+                <div class="news-three">
+                    <p>七月你好，还请好好加油！！！</p>
+                    <ul class="link-top">
+                        <li><img src="img/d90d1513gy1g4cce81i75j20jg0jg3za.jpg" alt=""></li>
+                        <li><img src="img/d90d1513gy1g4cce82a3mj20jg0jgdgw.jpg" alt=""></li>
+                        <li><img src="img/d90d1513gy1g4cce82okcj20jg0jgjs7.jpg" alt=""></li>
+                        <li><img src="img/d90d1513gy1g4cce83ddej20jg0jg0ty.jpg" alt=""></li>
+                    </ul>
+                    <h1><img src="img/min2.jpg" alt=""><span>搞笑头条军 &nbsp 6月30日 13:15</span></h1>
+                    <ul class="link-bottom">
+                            <li><a href="#"><i class="iconfont iconzhuanfa"></i></a>56421</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont iconpinglun-copy"></i></a>60423</li>
+                            <li>|</li>
+                            <li><a href="#"><i class="iconfont icondianzan"></i></a>23526</li>
+                    </ul>
+                </div>
+            </a>
+        </div>
+       <!-- 主要中心内容结束 -->
+    </div>
+
+
+
+
+     <!-- 点击登录弹出登录对话框 -->
+    <div class="mask">
+        <div class="maskBox">
+            <span>X</span>
+            <div class="maskBoxmain">
+                <div class="denglu">
+                    <ul class="list">
+                        <li><a href="#" class="currentDltwo">账号登录</a> </li>
+                        <li><a href="#">安全登录</a> </li>
+                    </ul>
+                </div>
+                <div class="zhanghaoBox"> <!-- 账号登录界面盒子 -->
+                    <form action="" class="form-one"> <!-- 两个输入框账号和密码 -->
+                        <i class="iconfont icongeren"></i>
+                        <input type="text" class="input-one user2" placeholder="邮箱/会员账号/手机号">
+                    </form>
+                    <form action="" class="form-one">
+                        <i class="iconfont iconsuo1"></i>
+                        <input type="text" class="input-one pass2" placeholder="请输入密码">
+                    </form>
+                    <div class="checked">
+                        <input type="checkbox" name="" id="" checked="checked">
+                        <i>下次自动登录</i>
+                        <a href="#">忘记密码</a>
+                    </div>
+                    <a href="#"><div class="register login2">登录</div></a> 
+                    <a href="#"><div class="registerTwo"><img src="img/QQ.jpg" alt=""> 使用QQ直接登录</div></a>
+                    <div class="zhuce">
+                        <a href="zhuce.html">立即注册</a>
+                        <a href="#">短信登录</a>
+                    </div>
+                </div>
+                <div class="anquanBox"> <!-- 安全登录盒子 -->
+                    <div class="qrCode">
+                        <img src="img/denglu.png" alt="">
+                        <p>请用最新版微博客户端扫码</p>
+                    </div>
+                    <div class="zhuce">
+                            <a href="zhuce.html">立即注册</a>
+                            <a href="#">短信登录</a>
+                    </div>
+                </div>
+                <div class="phone">
+                    <img src="img/phone.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div><!-- 蒙版层 -->
+
+    <!-- 两个刷新和置顶按钮  -->
+    <a href="#" onClick="document.location.reload()">
+        <div class="flush">
+            <i class="iconfont iconshuaxin"></i>
+        </div>
+    </a>
+    <a href="#1">
+        <div class="onUp">
+            <i class="iconfont iconshangjiantouxiangshangxianxing"></i>
+        </div>
+    </a>
+</div>
+</body>
+</html>
+<script src="js/animate9.0.js"></script>
+<script src="js/jquery-1.8.3.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/homepage.js"></script>
+<script src="js/denglu.js"></script>
+<script src="js/ajax.js"></script>
+<!-- 登录界面ajax -->
+<script>
+var login = document.querySelector('.login');
+var login2 = document.querySelector('.login2');
+var user2 = document.querySelector('.user2');
+var pass2 = document.querySelector('.pass2');
+var user = document.querySelector('.user');
+var pass = document.querySelector('.pass');
+login.onclick = function () {
+    ajax({
+        url: 'js/login2.php',
+        type: 'get',
+        data: 'act='+'login'+'&'+'user='+user.value+'&'+'pass='+pass.value,
+        succeed: function (d) {
+            var json = JSON.parse(d);
+            console.log(json);
+            alert(json.msg);
+        },
+        failed: function (code){
+            alert(code);
+        }
+    });
+}
+login2.onclick = function () {
+    ajax({
+        url: 'js/login2.php',
+        type: 'get',
+        data: 'act='+'login'+'&'+'user='+user2.value+'&'+'pass='+pass2.value,
+        succeed: function (d) {
+            var json = JSON.parse(d);
+            console.log(json);
+            alert(json.msg);
+        },
+        failed: function (code){
+            alert(code);
+        }
+    });
+}
+</script>

@@ -1,0 +1,936 @@
+/* 样式重置 */
+body,h1,h2,h3,h4,h5,h6,div,p,dl,dt,dd,ol,ul,li,form,table,th,td,a,img,span,strong,var,em,input,textarea,select,option{margin: 0; padding: 0;}
+html,body{font-family: "微软雅黑",Arail,Tabhoma; font-size: 100%; text-align: left; width: 100%; height: 100%; color: #333;}
+ul,ol{list-style: none;}
+img{border: 0;}
+/* input,select,textarea,button{outline:none; -webkit-appearance: none; font-family: "微软雅黑",Arail,Tabhoma;} */
+textarea{resize:none; overflow: auto;}
+table{border-collapse: collapse; border-spacing: 0;}
+th,strong,var,em{font-weight: normal; font-style: normal;}
+a{text-decoration: none;color: #222222;}
+body,html{
+    width:100%;
+    /* border-top: 1px solid #fa7d3c; */
+}
+.page{
+    width:1260px;
+    margin: 0 auto;
+}
+.l-header{
+    width:1260px;
+    height: 48px;
+    background:#ffffff;
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    z-index: 3; 
+}
+.l-header img{
+    margin: 6px 30px 0 30px;
+    float: left;
+}
+.l-header .search{
+    float: left;
+}
+.l-header .search .form{
+    width: 468px;
+    border: 1px solid #cfcfcf;
+    background:#f2f2f5;
+    margin-top: 10px;
+}
+.l-header .search .ipt{
+    width:430px;
+    font-size: 12px;
+    border: none;
+    background:#f2f2f5;
+    padding: 6px 0px 6px 10px;
+    overflow: hidden;
+    outline: none;
+}
+.l-header .search .form a{
+    font-size: 18px;
+    float: right;
+    padding: 5px 8px 0px 0px;
+}
+.l-header .search .form a:hover{
+    color: #fa7d3c
+}
+.l-header .search .list{
+    margin-top: 1px;
+    border: 1px solid #eee;
+    display: none;
+}
+.l-header .search .list li{
+    font-size: 12px;
+    background-color: #fff;
+    padding: 0 8px;
+    line-height: 24px;
+}
+.l-header .search .list li:hover {
+    background-color: #f2f2f5;
+}
+.l-header .link li{
+    float: left;
+    margin: 15px 25px 0px 0px;
+    font-size: 14px;
+}
+.l-header .link li:nth-child(1){
+    padding-left: 230px;
+}
+.l-header .link li a i{
+    font-size: 18px;
+    padding-right: 5px;
+}
+.l-header .link li a:hover{
+    color: #fa7d3c;
+}
+.l-header .link2 li{
+    float: right;
+    margin: 15px 0px 0px 15px;
+    font-size: 14px;
+}
+.l-header .link2 li a:hover{
+    color: #fa7d3c;
+}
+/* 头部结束 */
+
+
+
+
+
+
+
+
+/* 总的内容区 */
+.l-main{
+    width:1260px;
+    height: 2000px;
+    background: #fff;
+    padding-top:65px; 
+}
+.l-aside{
+    width: 120px;
+    background: #fff;
+    margin-left: 50px;
+    float: left;
+}
+.l-aside .nav li{
+    margin-bottom: 2px;
+    text-align: center;
+}
+.l-aside .nav li a{
+    display: block;
+    width: 120px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 18px;
+}
+.l-aside .nav li a:hover{
+    background: #fe5234;
+    border-radius: 4px;
+    color: #ffffff;
+}
+.l-aside .nav .current{
+    background: #fe5234;
+    width: 120px;
+    height: 38px;
+    border-radius: 4px;
+    color: #ffffff;
+}
+/* 侧边导航栏结束 */
+
+
+
+
+
+
+
+
+
+/* 总的中心内容区 */
+.l-main .l-main-center{
+    width: 660px;
+    background:#fff;
+    float: right;
+    margin-right: 20px;
+}
+.l-main-center .swiper-container {
+    width: 660px;
+    height: 300px;
+    background: #eee;
+    text-align: center;
+}  
+.l-main-center .swiper-container img{
+    width:660px;
+    height: 300px;
+}
+/* 轮播图结束 */
+.l-main-center .news-one{
+    width: 660px;
+    height: 195px;
+    background: #fff;
+    margin-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+.news-one .img{
+    width: 325px;
+    height: 185px;
+    float: left;
+    margin-right: 28px;
+    overflow: hidden;
+}
+.news-one .img img{
+    width: 325px;
+    height: 185px;
+}
+.news-one .img img:hover{
+  transform: scale(1.5,1.5);
+}
+.news-one p{
+    font-size: 14px;
+    padding-top: 2px;
+}
+.news-one p span{
+    font-size: 14px;
+    color: #fa7d3c;
+    line-height: 25px;
+} 
+.news-one h1 img{
+    width:22px;
+    height: 22px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
+.news-one h1{
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 12px;
+    color: #808080
+}
+.news-one h1 span{
+    display: block;
+    padding-top: 3px;
+}
+.news-one .link-bottom {
+    float: right;
+    position: relative;
+    top: 62px;
+}
+.news-one .link-bottom li{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    margin-left: 8px;
+    font-size:12px; 
+    color: #808080
+}
+.news-one .link-bottom li a i{
+    font-size: 16px;
+    padding-right: 5px;
+}
+.news-one .link-bottom li a:hover{
+    color: #fa7d3c;
+}
+/* .news-one结束 */
+
+
+/* .news-two开始 */
+.l-main-center .news-two{
+    width: 660px;
+    height: 110px;
+    background: #fff;
+    margin-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+.news-two .img{
+    width: 160px;
+    height: 100px;
+    float: left;
+    margin-right: 28px;
+    overflow: hidden;
+}
+.news-two .img img{
+    width: 160px;
+    height: 100px;
+}
+.news-two .img img:hover{
+  transform: scale(1.5,1.5);
+}
+.news-two p{
+    font-size: 14px;
+    padding-top: 2px;
+}
+.news-two p span{
+    font-size: 14px;
+    color: #fa7d3c;
+    line-height: 25px;
+} 
+.news-two h1 img{
+    width:22px;
+    height: 22px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
+.news-two h1{
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 12px;
+    color: #808080
+}
+.news-two h1 span{
+    display: block;
+    padding-top: 3px;
+}
+.news-two .link-bottom {
+    float: right;
+    position: relative;
+    top: 5px;
+}
+.news-two .link-bottom li{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    margin-left: 8px;
+    font-size:12px; 
+    color: #808080
+}
+.news-two .link-bottom li a i{
+    font-size: 16px;
+    padding-right: 5px;
+}
+.news-two .link-bottom li a:hover{
+    color: #fa7d3c;
+}
+
+/* .news-three开始 */
+.l-main-center .news-three{
+    width: 660px;
+    height: 170px;
+    background: #fff;
+    margin-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+.news-three p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.news-three .link-top li img{
+    width: 155px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+.news-three h1 img{
+    width:22px;
+    height: 22px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
+.news-three h1{
+    font-weight: normal;
+    font-size: 12px;
+    color: #808080;
+    line-height:22px;
+}
+.news-three h1 span{
+    display: block;
+    padding-top: 3px;
+}
+.news-three .link-bottom {
+    float: right;
+    position: relative;
+    top: -20px;
+}
+.news-three .link-bottom li{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    margin-left: 8px;
+    font-size:12px; 
+    color: #808080
+}
+.news-three .link-bottom li a i{
+    font-size: 16px;
+    padding-right: 5px;
+}
+.news-three .link-bottom li a:hover{
+    color: #fa7d3c;
+}
+/* 总的中心区内容结束 */
+
+
+
+
+
+
+
+/* 总的内容右边区开始 */
+.l-main .l-main-right{
+    width: 340px;
+    /* background: burlywood; */
+    float: right;
+    margin-right: 40px;
+}
+/* 登录页面 */
+.l-main-right .rightTopBox{
+    width: 340px;
+    height: 310px;
+    background: #f2f2f5;
+    padding-top:20px;
+}
+.rightTopBox .right-top{
+    width:300px;
+    height: 290px;
+    background: #fff;
+    margin-left:20px; 
+    border: 1px solid #eee;
+}
+/* 账号登录两种方式 */
+.right-top .denglu{
+    width: 272px;
+    height: 45px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-left: 12px;
+} 
+.right-top .list li{
+    float: left;
+}
+.right-top .list li a{
+  display: block;
+  padding:18px 40px 6px 40px;
+  font-size: 14px;
+  color: #8d8d8d;
+}
+.right-top .list .currentDl{
+    color: #333;
+    font-weight: bold;
+    border-bottom: 3px solid #fa7d3c;
+}
+/* 账号密码框 */
+.right-top .form-one{
+    float: left;
+    width: 270px;
+    height: 33px;
+    border: 1px solid #eee;
+    margin: 12px 0 0 12px;
+}
+.right-top .form-one i{
+    display: inline-block;
+   padding: 5px 0 0 10px;
+   font-size: 18px;
+}
+.right-top .form-one .input-one{
+    border: none;
+    width:230px;
+    outline: none;
+}
+.right-top .checked{
+   float: left;
+   padding: 10px 0 0 12px;
+   font-size: 12px;
+   color: #5f5f5f;
+}
+.right-top .checked a{
+    margin-left: 155px;
+    font-size: 12px;
+    color: #5f5f5f;
+ }
+ .right-top .checked a:hover{
+    color: #fa7d3c;
+ }
+ /* 登录按钮 */
+ .right-top .register{
+     float: left;
+     width:275px;
+     height: 35px;
+     background: #fa7d3c;
+     margin: 12px 0 0 12px;
+     border-radius: 2px;
+     text-align: center;
+     line-height:35px;
+     color: #fff;
+ }
+ .right-top .register:hover{
+    background: #fe5234;
+ }
+ /* 注册 */
+ .right-top .zhuce{
+     width: 270px;
+    float: left;
+    margin: 10px 0 0 12px;
+    padding-bottom: 12px;
+    font-size: 12px;
+    color: #5f5f5f;
+    border-bottom: 1px solid #eee;
+ }
+ .right-top .zhuce a{
+    font-size: 12px;
+    color: #fa7d3c;
+}
+.right-top .other{
+   float: left;
+   margin: 10px 0 0 12px;
+   font-size: 12px;
+   color: #5f5f5f;
+}
+.right-top .other .link li{
+    float: left;
+    margin-right:5px; 
+    margin-top: -3px;
+ }
+ .right-top .other .link span{
+    float: left;
+ }
+ .right-top .other .link li a{
+    font-size: 16px;
+    color: #fe5234;
+ }
+ /* 账号登录页面结束 */
+
+
+ /* 安全登录页面开始 */
+ .right-top .anquanBox{
+     display: none;
+ }
+ .right-top .anquanBox .qrCode{
+     width: 175px;
+     height: 190px;
+     border: 1px solid #eee;
+     margin: 15px 0 0 60px;
+     box-shadow: 1px 1px 2px #eee;
+ }
+ .anquanBox .qrCode img{
+     width: 150px;
+     height: 150px;
+     margin: 15px 0 0 13px;
+ }
+ .anquanBox .qrCode p{
+   font-size: 12px;
+   text-align: center
+}
+.anquanBox .zhuche{
+    width: 175px;
+    margin-left: 60px;
+    text-align: center
+}
+.anquanBox .zhuche span{
+    font-size: 12px;
+    color: #808080;
+}
+.anquanBox .zhuche a{
+    font-size: 12px;
+    color: #fa7d3c;
+}
+/* 安全登录结束 */
+.right-top .phone{
+    width: 265px;
+    height: 375px;
+    position: absolute;
+    right: 370px;
+    top: 85px;
+    z-index: 2;
+    display: none;
+}
+.right-top .phone img{
+    width: 265px;
+    height: 375px;
+}
+/* 登录界面和手机样式结束 */
+.l-main-right .rightCenterBox{
+    width: 340px;
+    height: 545px;
+    background: #f2f2f5;
+    border-top:1px solid #fa7d3c;
+    margin-top: 20px;
+}
+.rightCenterBox .right-center{
+    width: 300px;
+    height: 495px;
+    /* background: pink; */
+    margin-left:20px;
+}
+.right-center h3{
+    margin: 20px 0px;
+}
+.right-center .news{
+    height: 70px;
+    /* background: #ffffff; */
+    margin-bottom: 20px;
+}
+.right-center .news a{
+   display: inline-block;
+    font-size: 14px;
+    color: #414141;
+    margin-top: 10px;
+} 
+.right-center .news a:hover{
+    color: #fa7d3c;
+}
+.right-center .news p{
+    font-size: 12px;
+    color: #808080;
+    margin-top: 10px;
+} 
+.right-center .news img{
+    width: 120px;
+    height: 70px;
+    float: right;
+}
+.rightCenterBox .right-more{
+    width: 340px;
+    height: 30px;
+    border-top:1px solid #cfcfcf;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+}
+.rightCenterBox .right-more a:hover{
+   color: #fa7d3c
+}
+/* 右侧中心模块微博新鲜事结束 */
+
+/* 右侧底部模块微博实时热点开始 */
+.l-main-right .rightDownBox{
+    width: 340px;
+    height: 450px;
+    background: #f2f2f5;
+    border-top:1px solid #fa7d3c;
+    margin-top: 20px;
+}
+.rightDownBox .right-down{
+    width: 300px;
+    height: 400px;
+    /* background: pink; */
+    margin-left:20px;
+}
+.right-down h3{
+    margin: 20px 0px;
+}
+.right-down .news{
+    height: 50px;
+    /* background: #ffffff; */
+    margin-bottom: 20px;
+}
+.right-down .news img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.right-down .news a{
+   display: inline-block;
+    font-size: 14px;
+    color: #414141;
+    margin-top: 5px;
+    margin-left: 5px;
+} 
+.right-down .news a:hover{
+    color: #fa7d3c;
+}
+.right-down .news p{
+    font-size: 12px;
+    color: #808080;
+    margin-top: 5px;
+    margin-left: 60px;
+} 
+.rightDownBox .right-more{
+    width: 340px;
+    height: 30px;
+    border-top:1px solid #cfcfcf;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+}
+.rightDownBox .right-more a:hover{
+   color: #fa7d3c
+}
+/* 右侧底部模块微博实时热点结束 */
+
+/* 右侧底部微博找人开始 */
+.l-main-right .rightLookforBox{
+    width: 340px;
+    height: 753px;
+    background: #f2f2f5;
+    border-top:1px solid #fa7d3c;
+    margin-top: 20px;
+}
+.rightLookforBox .right-lookfor{
+    width: 300px;
+    height: 400px;
+    /* background: pink; */
+    margin-left:20px;
+}
+.right-lookfor h3{
+    margin: 20px 0px;
+}
+.right-lookfor .main {
+   float: left;
+   width: 300px;
+   border-bottom: 1px solid #cfcfcf;
+   margin-bottom: 20px;
+}
+.right-lookfor .main h4{
+    margin-bottom: 18px;
+    color: #808080;
+    font-weight: normal;
+    font-size: 16px;
+}
+.right-lookfor .main ul li{
+    float: left;
+    margin: 0 51px 15px 0;
+    text-align: center;
+}
+.right-lookfor .main li img{
+    width: 12px;
+    height: 12px;
+}
+.right-lookfor .main li a{
+    font-size: 12px;
+}
+.right-lookfor .main li a:hover{
+    color: #fa7d3c;
+}
+/* 右侧底部微博找人结束 */
+/* 主要内容右侧内容样式结束 */
+
+
+
+/* 点击登录弹出登录对话框  */
+.mask{
+    width:100%; 
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    z-index: 3;
+}
+.mask .maskBox{
+    width: 600px;
+    height: 405px;
+    background: #ffffff;
+    border-top:2px solid #fa7d3c;
+    border-radius: 3px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -203px;
+}
+.mask .maskBox span{
+    display: block;
+    float: right;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 12px 15px 0 0;
+}
+.mask .maskBox span:hover{
+    color: #fa7d3c
+}
+.mask .maskBoxmain{
+    width:360px;
+    height: 300px;
+    /* background: pink; */
+    margin:40px 0 0 110px; 
+}
+/* 账号登录两种方式 */
+.maskBoxmain .denglu{
+    width: 350px;
+    height: 38px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+} 
+.maskBoxmain .list li{
+    float: left;
+}
+.maskBoxmain .list li a{
+  display: block;
+  padding:0px 55px 15px 55px;
+  font-size: 16px;
+  color: #8d8d8d;
+}
+.maskBoxmain .list .currentDltwo{
+    color: #333;
+    font-weight: bold;
+    border-bottom: 3px solid #fa7d3c;
+}
+/* 账号密码框 */
+.maskBoxmain .form-one{
+    float: left;
+    width: 230px;
+    height: 30px;
+    border: 1px solid #eee;
+    margin: 12px 0 0 55px;
+}
+.maskBoxmain .form-one i{
+    display: inline-block;
+   padding: 8px 0 0 8px;
+   font-size: 16px;
+}
+.maskBoxmain .form-one .input-one{
+    border: none;
+    width:200px;
+    outline: none;
+}
+.maskBoxmain .checked{
+   float: left;
+   padding: 10px 0 0 55px;
+   font-size: 12px;
+   color: #5f5f5f;
+}
+.maskBoxmain .checked i{
+   font-style: normal;
+ }
+.maskBoxmain .checked a{
+    margin-left: 85px;
+    font-size: 12px;
+    color: #5f5f5f;
+ }
+ .maskBoxmain .checked a:hover{
+    color: #fa7d3c;
+ }
+ /* 登录按钮 */
+ .maskBoxmain .register{
+     float: left;
+     width: 230px;
+     height: 35px;
+     background: #fa7d3c;
+     margin: 12px 0 0 55px;
+     border-radius: 2px;
+     text-align: center;
+     line-height:35px;
+     color: #fff;
+ }
+ .maskBoxmain .register:hover{
+    background: #fe5234;
+ }
+ .maskBoxmain .registerTwo{
+    float: left;
+    width: 230px;
+    height: 35px;
+    background: #ffffff;
+    margin: 15px 0 0 55px;
+    border-radius: 2px;
+    text-align: center;
+    line-height:35px;
+    font-size: 14px;
+    border: 1px solid #cfcfcf;
+}
+.maskBoxmain .registerTwo img{
+    position: relative;
+    top: 6px;
+    width: 24px;
+    height: 24px;
+}
+ /* 注册 */
+ .maskBoxmain .zhuce{
+    width: 230px;
+    float: left;
+    margin: 10px 0 0 65px;
+    padding-bottom: 12px;
+    font-size: 12px;
+    color: #5f5f5f;
+    text-align: center;
+ }
+.maskBoxmain .zhuce a{
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.maskBoxmain .zhuce a:hover{
+   color: #fa7d3c
+}
+
+
+ /* 账号登录页面结束 */
+
+
+ /* 安全登录页面开始 */
+ .maskBoxmain .anquanBox{
+     display: none;
+ }
+ .maskBoxmain .anquanBox .qrCode{
+     width: 215px;
+     height: 225px;
+     border: 1px solid #eee;
+     margin: 15px 0 0 70px;
+     box-shadow: 1px 1px 2px #eee;
+ }
+ .maskBoxmain .anquanBox .qrCode img{
+     width: 175px;
+     height: 175px;
+     margin: 20px 0 0 20px;
+ }
+ .maskBoxmain .anquanBox .qrCode p{
+   font-size: 14px;
+   text-align: center
+}
+/* 安全登录结束 */
+.maskBoxmain .right-top .phone{
+    width: 265px;
+    height: 375px;
+    position: absolute;
+    right: 370px;
+    top: 85px;
+    z-index: 2;
+    display: none;
+}
+.maskBoxmain .phone{
+    width: 250px;
+    height: 375px;
+    position: absolute;
+    left: -135px;
+    top: 0px;
+    display: none;
+}
+.rmaskBoxmain .phone img{
+    width: 250px;
+    height: 375px;
+}
+/* 弹出的对话框样式结束 */
+
+
+/* 两个刷新和置顶按钮 */
+.page .flush{
+    width:40px;
+    height: 40px;
+    background:#cfcfcf;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: fixed;
+    left: 1272px;
+    top: 520px;
+}
+.page .flush i{
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+}
+.page .flush:hover{
+    background: #5f5f5f;
+}
+.page .onUp{
+    width:40px;
+    height: 40px;
+    background:#cfcfcf;
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    left: 1272px;
+    top: 570px;
+}
+.page .onUp i{
+    font-weight: bold;
+    font-size: 22px;
+    color: #ffffff;
+}
+.page .onUp:hover{
+    background: #5f5f5f;
+}

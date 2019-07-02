@@ -1,0 +1,272 @@
+.s-headerall{
+    width: 100%;
+    height: 48px;
+    /* background: #ccc; */
+    /* position: absolute;
+    top: 0; */
+}
+.s-header{
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.3) ;
+    background: rgba(255,255,255,0.94);
+    height: 48px;
+    width: 100%;
+    background: #fff;
+    margin: 0 auto;
+    line-height: 48px;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+.s-header .logo{
+    float: left;
+    width: 144px;
+    text-align: center;
+    
+}
+.s-header .logo img{
+    vertical-align: middle;
+}
+.s-header .right{
+    margin-right: 20px;
+    float: right;
+}
+.s-header .right a{
+    font-size: 14px;
+    margin: 0 15px;
+    color: #333;
+}
+.main{
+    height: 100%;
+    width: 100%;
+
+}
+.main-left{
+    width: 240px;
+    height: 100%;
+    float: left;
+    background: #f7f7f7;
+    padding: 8px 0 0;
+    position: fixed;
+    left: 0;
+}
+.main-left a:hover{
+    background: #eee;
+}
+
+.main-left .top{
+    margin: 20px 25px;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.main-left .top li{
+    margin: 8px 0;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+}
+.main-left .top li i{
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+    text-align: center;
+    font-size: 22px;
+    vertical-align: top;
+}
+.main-left .top li a{
+    display:block;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    padding: 8px 0;
+    
+}
+.main-left .center{
+    margin: 20px 25px 0 25px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+.main-left .center span{
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    vertical-align: top;
+}
+.main-left .center a{
+    display: inline-block;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 8px 8px 0;
+    padding: 4px 8px;
+}
+.main-left .bottom{
+    margin: 20px 25px;
+    overflow: hidden;
+    font-weight: bold;
+}
+.main-left .bottom li{
+    height: 40px;
+    margin: 8px 0;
+}
+.main-left .bottom a{
+    display: block;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 8px 8px 0;
+    padding: 4px 8px;
+}
+.main-left .bottom i{
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+    text-align: center;
+    font-size: 21px;
+    vertical-align: top;
+}
+.main-right{
+    margin-left:  260px;
+    width: 1066px;
+
+    /* flex: 1; */
+}
+.main-right .nav{
+    width: 100%;
+    position: relative;
+    
+    height: 358px;
+    overflow: hidden;
+}
+.main-right .nav .navli{
+    padding-top: 15px;
+    position: absolute;
+    height: 100%;
+    left: -760px;
+    width: 6840px;
+    z-index: -3;   
+}
+.main-right .nav .navli li{
+    float: left;
+    width: 852px;
+    height: 340px;
+    
+    margin: 0 8px;
+    box-shadow: 0 4px 8px 0 #e6e6e6;
+}
+.nav .navli li img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+.arr{
+    opacity: 0;
+}
+.nav .toLeft{
+    width: 60px;
+    height: 60px;
+    background: url(../img/images/btn.gif);
+    position: absolute;
+    top: 150px;
+    left: 10px;
+}
+.nav .toRight{
+    width: 60px;
+    height: 60px;
+    background: url(../img/images/btn.gif) 0px 60px;
+    position: absolute;
+    top: 150px;
+    left: 1000px;
+}
+.nav .do{
+    position: absolute;
+    left: 607px;
+    top: 314px;
+}
+.nav .do .active{
+    background: #fff;
+}
+.nav .do li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    background: #ccc;
+}
+.tv{
+    /* margin:0 0 24px; */
+    margin: 24px -4px 24px 0;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+.tv .top{
+    overflow: hidden;
+}
+.tv .top h3{
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+}
+.tv .top a{
+    display: block;
+    float: right;
+    line-height: 20px;
+    font-size: 12px;
+}
+.main-right ul{
+    margin: 24px 0 0;
+}
+.main-right ul li{
+    width: 210px;
+    float: left;
+    margin: 0 3px 24px 0;
+    cursor: pointer;
+}
+.main-right h4{
+    height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 8px 0 4px;
+}
+.main-right h4:hover{
+    color: #FF8200;
+}
+.main-right p{
+    font-size: 12px;
+}
+.eat{
+    width:100%;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+.eat .top{
+    margin-bottom: 8px;
+    line-height: 18px;
+    overflow: hidden;
+}
+.eat .top img{
+    float: left;
+    margin-right: 10px;
+}
+.eat .top .txt{
+    float: left;
+}
+.eat .top .txt h5{
+    line-height: 23px;
+    font-size: 14px;
+}
+.eat .top .txt p{
+    font-size: 12px;
+    line-height: 18px;
+}

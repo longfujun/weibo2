@@ -1,0 +1,410 @@
+.wrap{
+    width: 100%;
+    background: linear-gradient(to bottom,#95c6e5,#bee1f5)
+}
+.line{
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(to right,#ee1d2f,#fdad40);
+    border-bottom: 1px solid #e6f1f9;
+}
+.s-headerbox{
+    height: 164px;
+    width: 100%;
+}
+.s-header{
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+}
+.s-header img{
+    margin-top: 26px;
+    width: 195px;
+    height: 70px;
+}
+.s-mainbox{
+    width: 100%;
+}
+.s-main{
+    width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.s-main .header{
+    padding:24px 0 22px 40px;
+}
+.s-main .header em{
+    display: inline-block;
+    color: #333333;
+    font-size: 22px;
+    line-height: 33px;
+    border-bottom: 3px solid #fff;
+}
+.s-main .header em:hover{
+    cursor: pointer;
+}
+.s-main .header span{
+    margin: 0 19px;
+    color: #999;
+}
+.left-form1{
+    margin: 15px 0 0 20px;
+    padding:0 0 78px;
+    width: 550px;
+    float: left;
+    line-height: 20px;
+    color: #333;
+    padding: 0 0 10px 20px;
+    display: none;
+}
+.left-form1 ul{
+    padding-bottom: 25px;
+}
+.left-form1 ul li{
+    font-size: 12px;
+}
+.left-form1 ul li a{
+    color: #568cd2;
+}
+.left-form1 ul li a:hover{
+    text-decoration: underline;
+}
+.left-form1 ul li:nth-child(2){
+    color: red;
+}
+
+.email .emailimg{
+    padding: 3px 10px 0 60px;
+}
+.left-form1 i{
+    color: red;
+    
+}
+.email{
+    font-size: 14px;
+}
+.email input{
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 28px;
+    border-radius: 3px;
+}
+
+.email .add{
+    padding-bottom: 10px;
+    font-size: 12px;
+    padding-left: 155px;
+}
+.add a{
+    color: #568cd2;
+}
+.add:hover a{
+    text-decoration: underline;
+}
+.gfmima{
+    margin: 0 0 12px;
+    font-size: 14px;
+}
+.gfmima i{
+    padding-left: 68px;
+}
+.gfmima input{
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 28px;
+    border-radius: 3px;
+}
+
+
+.gfname{
+    margin: 0 0 12px;
+    font-size: 14px;
+}
+.gfname i{
+    padding-left: 26px;
+}
+.gfname input{
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 28px;
+    border-radius: 3px;
+}
+
+.city{
+    margin: 0 0 12px;
+    font-size: 14px;
+}
+.city i{
+    padding-left: 85px;
+}
+#Shen{
+    font-size: 12px;
+    display: inline-block;
+    width: 60px;
+    height: 18px;
+    line-height: 18px;
+}
+#Shi{
+    font-size: 12px;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+}
+
+
+.yzm{
+    margin: 0 0 12px;
+    font-size: 14px;
+}
+.yzm i{
+    padding-left: 85px;
+}
+.yzm input{
+    border: 1px solid #ccc;
+    width: 60px;
+    height: 28px;
+    border-radius: 3px;
+}
+.yzm span{
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+    padding: 0 15px 0 5px;
+}
+.yzm u{
+    font-size: 12px;
+    display: inline-block;
+    color: #568cd2;
+    text-decoration: none;
+}
+.yzm u:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*                  */
+.left-form{
+    margin: 29px 0 0 20px;
+    padding:0 0 78px;
+    width: 550px;
+    float: left;
+}
+.left-form .phone{
+    margin: 0 0 15px;
+    position: relative;
+}
+.phone .phoneimg{
+    padding: 3px 10px 0 60px;
+}
+.left-form i{
+    color: red;
+}
+.phone input{
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 28px;
+    border-radius: 3px;
+}
+.phone span{
+    font-size: 12px;
+    display: none; 
+    position: absolute;
+    top: 6px;
+    left: 370px;
+}
+.phone .add{
+    padding-top: 10px;
+    font-size: 12px;
+    padding-left: 155px;
+}
+.add a{
+    color: #568cd2;
+}
+.add:hover a{
+    text-decoration: underline;
+}
+.mima{
+    margin: 0 0 15px;
+    position: relative;
+}
+.mima span{
+    font-size: 12px;
+    display: none; 
+    position: absolute;
+    top: 6px;
+    left: 370px;
+}
+.mima i{
+    padding-left: 60px;
+}
+.mima input{
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 28px;
+    border-radius: 3px;
+}
+.birthday{
+    margin: 0 0 15px;
+}
+.birthday i{
+    padding-left: 93px;
+}
+.birthday span{
+    font-size: 14px;
+}
+.jhm{
+    margin: 0 0 15px;
+}
+.jhm i{
+    padding-left: 79px;
+}
+.jhm span{
+    width: 110px;
+    height: 24px;
+    display: inline-block;
+    color: #333;
+    font-size: 12px;
+    padding-right: 3px;
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 3px;
+    padding: 2px;
+}
+.jhm span:hover{
+    background: #FFA00A;
+    border-color: #ccc;
+    cursor: pointer;
+}
+.jhm input{
+    height: 28px;
+    width: 69px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.jhm a{
+    font-size: 12px;
+    display: inline-block;
+    color: #0a8cd2;
+}
+.jhm .add{
+    padding-top: 10px;
+    font-size: 12px;
+    padding-left: 155px;
+}
+.jhm :hover a{
+    text-decoration: underline;
+}
+.btn{
+    height: 40px;
+    margin: 30px 0 12px;
+}
+.btn span{
+    display: inline-block;
+    height: 18px;
+    width: 196px;
+    background:#FFA00A;
+    text-align: center;
+    line-height: 18px;
+    border: 1px solid #ffb33b;
+    font-size: 16px;
+    padding: 10px 0 8px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-left: 155px;
+}
+.btn span:hover{
+    background:rgb(216, 138, 12);
+    cursor: pointer;
+}
+.last p{
+    font-size: 12px;
+    color: #0a8cd2;
+    margin: 0 0 7px;
+    margin-left: 155px;
+}
+.last a{
+    color: #0a8cd2;
+    
+}
+.last p:hover a{
+    text-decoration: underline;
+}
+
+
+/*  */
+.right-form{
+    width: 210px;
+    padding: 60px 30px 0 30px;
+    line-height: 22px;
+    font-size: 14px;
+    float: right;
+    border-left: 1px solid #ccc;
+}
+.cont p{
+    font-size: 14px;
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 14px;
+}
+.cont ul{
+    margin-top: 10px;
+}
+.cont ul li{
+    margin-top: 5px;
+}
+.cont  a{
+    
+    color: #0a8cd2; 
+    font-size: 12px;
+    line-height: 25px;
+}
+.cont a:hover {
+    text-decoration: underline;
+}
+.cont i{
+    display: inline-block;
+    margin: 4px 10px 0 0 ;
+    height: 18px;
+    width: 15px;
+    line-height: 15px;
+    color: #fff;
+    text-align: center;
+    background: url(../img/images/s-li_03.jpg)
+}
+.helpmore{
+    display: block;
+    margin: 16px 0 40px 25px;
+}
+.s-footerbox{
+    width: 100%;
+
+}
+.s-footer{
+    width: 900px;
+    margin: 0 auto;
+    font-size: 12px;
+    overflow: hidden;
+    color: #000;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.foot-left{
+    float: left;
+}
+.foot-left a{
+    padding-left: 5px;
+}
+.foot-right{
+    float: right;
+}
+.foot-right span{
+    padding-right: 10px;
+}
