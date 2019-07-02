@@ -35,18 +35,8 @@ function myCb(json) {//接收处理数据
         list.innerHTML += '<a href="#">'+'<li>'+ json.s[i]+'</li>'+'</a>';
     }
 }
-// 头部js结束
-// var aside = document.querySelector('.l-aside');
-// window.onscroll=function(){
-//     var sTop=document.documentElement.scrollTop||document.body.scrollTop;
-//     if(sTop>68){
-//         aside.style.position="fixed";
-//         aside.style.top=48+'px';
-//     }
-//     else{
-//         aside.style.position="static";
-//     }
-// }
+
+
 //导航栏选择效果
 $('.nav li a').click(function () {
     $(this).addClass('current').parent().siblings().children().removeClass('current');
@@ -91,4 +81,34 @@ window.onscroll=function(){
     else{
         aside.style.position="static";
     }
+}
+
+//登录框边框变化
+var user2 = document.querySelector('.user2');
+var pass2 = document.querySelector('.pass2');
+var user = document.querySelector('.user');
+var pass = document.querySelector('.pass');
+user2.onfocus=function (){//搜索框获取焦点事件
+    user2.parentNode.style.border='1px solid #fa7d3c';
+}
+user2.onblur=function (){//搜索框失去焦点事件
+    user2.parentNode.style.border='1px solid #eee';
+}
+user.onfocus=function (){//搜索框获取焦点事件
+    user.parentNode.style.border='1px solid #fa7d3c';
+}
+user.onblur=function (){//搜索框失去焦点事件
+    user.parentNode.style.border='1px solid #eee';
+}
+pass2.onfocus=function (){//搜索框获取焦点事件
+    pass2.parentNode.style.border='1px solid #fa7d3c';
+}
+pass2.onblur=function (){//搜索框失去焦点事件
+    pass2.parentNode.style.border='1px solid #eee';
+}
+pass.onfocus=function (){//搜索框获取焦点事件
+    pass.parentNode.style.border='1px solid #fa7d3c';
+}
+pass.onblur=function (){//搜索框失去焦点事件
+    pass.parentNode.style.border='1px solid #eee';
 }
