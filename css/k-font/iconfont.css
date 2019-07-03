@@ -10,7 +10,7 @@
 .iconfont {
   font-family: "iconfont" !important;
   font-size: 12px;
-  color: chocolate;
+  color: #3DAFF1;
   font-style: normal;
   margin-right: 10px;
   margin-left: 10px;
@@ -61,7 +61,7 @@
   content: "\e600";
 }
 
-.icon-zaixiankefu:before {
+.icon-zaixia0nkefu:before {
   content: "\e6ad";
 }
 

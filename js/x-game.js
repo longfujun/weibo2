@@ -12,7 +12,7 @@ $('.x-game').mouseleave(function(){
         display:'none'
     })
 })
-// 
+
 // 导航写完
 
 $('.x-nav a').click(function(){
@@ -71,4 +71,15 @@ setInterval(auto,1000);
 	})
 	// 
 	// content 写完
+	
+	window.onscroll = function(){
+		var sTop = document.documentElement.scrollTop || document.body.scrollTop;
+		if(sTop > 27){
+			$('.x-header').css({position:'fixed',top:0});
+		}else{
+			$('.x-header').css({position:'static'});
+		}
+	}
+	// 
+	// 吸顶效果
 	
