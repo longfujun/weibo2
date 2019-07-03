@@ -1,11 +1,10 @@
 .x-wrap{
     margin: 0 auto;
-    width: 100%;
     height: 100%;
     overflow: hidden;
 }
 .x-head{
-    margin: auto;
+    margin: 0 auto;
     width: 1223px;
     padding: 5px 150px;
     border-bottom: 1px solid #ccc;
@@ -150,6 +149,7 @@
 /* 导航栏写完 */
 
 .x-header{
+    margin: 0 auto;
     background: white;
     padding: 20px 150px;
     width: 1223px;
@@ -486,7 +486,7 @@ h2{
     width: 1210px;
     padding: 10px;
     padding-right: 0;
-    margin: 0 150px;
+    margin: 0 auto;
     background: white;
     overflow: hidden;
  }
@@ -699,7 +699,7 @@ h4{
     width: 1219px;
     height: 394px;
     background: white;
-    margin: 0 150px;
+    margin: 0 auto;
     overflow: hidden;
 }
 .x-HotGame{
@@ -838,6 +838,7 @@ h4{
     Asidd  写完
 */
 .x-contentBottom{
+    margin: 0 auto;
     width: 1210px;
     padding-left:10px; 
     margin: 20px 150px 0 150px;
