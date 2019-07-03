@@ -74,10 +74,10 @@ setInterval(auto,1000);
 	
 	window.onscroll = function(){
 		var sTop = document.documentElement.scrollTop || document.body.scrollTop;
-		if(sTop > 27){
-			$('.x-header').css({position:'fixed',top:0});
+		if(sTop > 250){
+			$('.x-box1').css({position:'fixed',top:0});
 		}else{
-			$('.x-header').css({position:'static'});
+			$('.x-box1').css({position:'static',borderBottom:'1px solid pink'});
 		}
 	}
 	// 
