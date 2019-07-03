@@ -210,6 +210,8 @@
                             <input type="text" name="yzm" id="">
                             <span class="ma">absd</span>
                             <u>换一换</u>
+                            <img src="img/images/s-ture.jpg" alt="" class="mok" >
+                            
                         </div>
                         <!-- <div class="jhm">
                             <i>*</i>
@@ -358,11 +360,17 @@
     var passwdflag=false;
     var yzmflag=false;
 
-if($('.yzm').val()==$('.ma').val() ){
-    yzmflag=true;
-}else{
-    yzmflag=false;
-}
+$('input[name=yzm]').bind('blur',function(){
+    if($('input[name=yzm]').val()==$('.ma').html() ){
+        yzmflag=true;
+        $('.mok').css('display','block');
+    }else{
+        yzmflag=false;
+        $('.mok').css('display','none');
+        alert('验证码输入错误')
+    }
+})
+
     $('input[name=user]').bind('focus',function(){
         if($('input[name=user]').val()==''){
             $('.no').css('display','none');
@@ -409,7 +417,7 @@ if($('.yzm').val()==$('.ma').val() ){
     });
     
     $('.btn').on('click',function(){
-    if(passwdflag && userflag){
+    if(passwdflag && userflag && yzmflag){
     var userVal=$('input[name=user]').val();
     var passwdVal=$('input[name=passwd]').val();
     // console.log(userVal);
