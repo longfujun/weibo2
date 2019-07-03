@@ -6,7 +6,7 @@ var toLeft=document.querySelector('.toLeft');
 var toRight=document.querySelector('.toRight');
 var list=doit.children;
 var index = 0;
-var timer = setInterval(autoPlay,2000);
+var timer = setInterval(autoPlay,1000);
 function autoPlay(){
     if(index==4){
         index=0;
@@ -27,7 +27,7 @@ nav.onmouseover=function(){
 nav.onmouseout = function(){
     animate(arr,{opacity:0},20);
     //clearInterval(timer);
-    timer = setInterval(autoPlay,2000);
+    timer = setInterval(autoPlay,1000);
 }
 
 toLeft.onclick = function(){
