@@ -72,18 +72,18 @@
                     <div class="zhanghaoBox"> <!-- 账号登录界面盒子 -->
                         <form action="" class="form-one"> <!-- 两个输入框账号和密码 -->
                                 <i class="iconfont icongeren"></i>
-                            <input type="text" class="input-one" placeholder="邮箱/会员账号/手机号">
+                            <input type="text" class="input-one user" placeholder="邮箱/会员账号/手机号">
                         </form>
                         <form action="" class="form-one">
                             <i class="iconfont iconsuo1"></i>
-                            <input type="text" class="input-one" placeholder="请输入密码">
+                            <input type="text" class="input-one pass" placeholder="请输入密码">
                         </form>
                         <div class="checked">
                             <input type="checkbox" name="" id="" checked="checked">
                             <span>记住我</span>
                             <a href="#">忘记密码</a>
                         </div>
-                        <a href="#"><div class="register">登录</div></a> 
+                        <a href="#"><div class="register login">登录</div></a> 
                         <div class="zhuce">
                             还没注册微博？
                             <a href="#">立即注册!</a>
@@ -531,18 +531,18 @@
                 <div class="zhanghaoBox"> <!-- 账号登录界面盒子 -->
                     <form action="" class="form-one"> <!-- 两个输入框账号和密码 -->
                             <i class="iconfont icongeren"></i>
-                        <input type="text" class="input-one" placeholder="邮箱/会员账号/手机号">
+                        <input type="text" class="input-one user2" placeholder="邮箱/会员账号/手机号">
                     </form>
                     <form action="" class="form-one">
                         <i class="iconfont iconsuo1"></i>
-                        <input type="text" class="input-one" placeholder="请输入密码">
+                        <input type="text" class="input-one pass2" placeholder="请输入密码">
                     </form>
                     <div class="checked">
                         <input type="checkbox" name="" id="" checked="checked">
                         <i>下次自动登录</i>
                         <a href="#">忘记密码</a>
                     </div>
-                    <a href="#"><div class="register">登录</div></a> 
+                    <a href="#"><div class="register login2">登录</div></a> 
                     <a href="#"><div class="registerTwo"><img src="img/QQ.jpg" alt=""> 使用QQ直接登录</div></a>
                     <div class="zhuce">
                         <a href="#">立即注册</a>
@@ -585,3 +585,43 @@
 <script src="js/swiper.min.js"></script>
 <script src="js/homepage.js"></script>
 <script src="js/denglu.js"></script>
+<script src="js/ajax.js"></script>
+<!-- 登录界面ajax -->
+<script>
+var login = document.querySelector('.login');
+var login2 = document.querySelector('.login2');
+var user2 = document.querySelector('.user2');
+var pass2 = document.querySelector('.pass2');
+var user = document.querySelector('.user');
+var pass = document.querySelector('.pass');
+login.onclick = function () {
+    ajax({
+        url: 'js/login2.php',
+        type: 'get',
+        data: 'act='+'login'+'&'+'user='+user.value+'&'+'pass='+pass.value,
+        succeed: function (d) {
+            var json = JSON.parse(d);
+            console.log(json);
+            alert(json.msg);
+        },
+        failed: function (code){
+            alert(code);
+        }
+    });
+}
+login2.onclick = function () {
+    ajax({
+        url: 'js/login2.php',
+        type: 'get',
+        data: 'act='+'login'+'&'+'user='+user2.value+'&'+'pass='+pass2.value,
+        succeed: function (d) {
+            var json = JSON.parse(d);
+            console.log(json);
+            alert(json.msg);
+        },
+        failed: function (code){
+            alert(code);
+        }
+    });
+}
+</script>
